@@ -34,6 +34,7 @@ namespace edu.PrEjercicio5._2410.Controladores
                 opcionSeleccionada = oi.menuSelecc();
                 Console.WriteLine(opcionSeleccionada);
 
+            // al ejecutar el case "s" llamará a método Main para volver a realizar todos los pasos y realizar otra consulta.
                 switch(opcionSeleccionada)
                 {
                    

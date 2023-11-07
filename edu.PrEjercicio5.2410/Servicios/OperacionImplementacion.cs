@@ -40,7 +40,7 @@ namespace edu.PrEjercicio5._2410.Servicios
         public void menuBisiesto(int añoSelec, int mesSelec)
         {
             
-
+            
             if (añoSelec % 4 == 0)
             {
                 
@@ -50,7 +50,7 @@ namespace edu.PrEjercicio5._2410.Servicios
 
                     if (añoSelec % 400 == 0)
                     {
-
+                        // meses y año bisiesto al cumplirse todas las operaciones.
                         if (mesSelec >= 1 & mesSelec <= 12){
 
                             if (mesSelec == 1 | mesSelec == 3 | mesSelec == 5 | mesSelec == 7 | mesSelec == 8 | mesSelec == 10 | mesSelec == 12)
@@ -72,7 +72,7 @@ namespace edu.PrEjercicio5._2410.Servicios
                             Console.WriteLine("El número marcado no coincide con ningun mes");
                         }
                     }
-
+                    // meses y año NO bisesto al no cumplirse la division %400.
                     else
                     {
                         if (mesSelec >= 1 & mesSelec <= 12)
@@ -99,7 +99,7 @@ namespace edu.PrEjercicio5._2410.Servicios
                         }
                     }
                 }
-
+                // meses y año No bisiesto al no cumplirse la división %100
                 else {
 
                     if (mesSelec >= 1 & mesSelec <= 12)
@@ -128,6 +128,7 @@ namespace edu.PrEjercicio5._2410.Servicios
 
 
             }
+            //meses y año No bisiesto al no cumplirse la divsión %4.
             else {
                 if (mesSelec >= 1 & mesSelec <= 12)
                 {
